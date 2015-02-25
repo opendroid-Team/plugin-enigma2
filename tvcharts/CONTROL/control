@@ -1,0 +1,2 @@
+Description: Generates TVCharts of users having the plugin installed
+Depends: enigma2, python-twisted-web

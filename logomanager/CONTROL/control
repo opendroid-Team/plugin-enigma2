@@ -1,0 +1,2 @@
+Description: manage logos to display at boottime or radiomode
+Depends: enigma2, enigma2-plugin-extensions-filebrowser

@@ -1,0 +1,2 @@
+Description: Bonjour/avahi-daemon management for your Dreambox
+Depends: enigma2, avahi-daemon

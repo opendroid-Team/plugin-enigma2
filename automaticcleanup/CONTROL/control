@@ -1,0 +1,3 @@
+Description: Automatic System Cleanup (setting backups, orphaned movie files, timer entries)
+Depends: enigma2
+Conflicts: enigma2-plugin-systemplugins-automatictimerlistcleanup

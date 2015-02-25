@@ -1,0 +1,332 @@
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2 plugin - infobartunerstate\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-27 21:28+0100\n"
+"PO-Revision-Date: 2012-05-06 22:36+0100\n"
+"Last-Translator: Spaeleus <spaeleus@croci.org>\n"
+"Language-Team: www.linsat.net <spaeleus@croci.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .../enigma2-plugins/infobartunerstate\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: Italy\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .../enigma2-plugins/infobartunerstate\n"
+
+msgid ""
+"  (C) 2012 by betonme @ IHAD \n"
+"\n"
+msgstr ""
+"  (C) 2012 by betonme @ IHAD \n"
+"\n"
+
+msgid "  If You like this plugin and want to support it,\n"
+msgstr "  Se questo plugin piace e si desiderasse supportarlo,\n"
+
+msgid "  SUPPORT: "
+msgstr "SUPPORTO: "
+
+msgid ""
+"  Thanks a lot ! \n"
+"  PayPal: "
+msgstr ""
+"  Mille grazie!\n"
+"\n"
+"  PayPal: "
+
+msgid ""
+"  feel free to donate via PayPal. \n"
+"\n"
+msgstr ""
+"  è possibile contribuire con PayPal.\n"
+"\n"
+
+msgid "  or if just want to say ''thanks'',\n"
+msgstr "  o semplicemente si volesse ringraziare,\n"
+
+#, python-format
+msgid "%d"
+msgstr "%d"
+
+#, python-format
+msgid "%d %%"
+msgstr "%d %%"
+
+#, python-format
+msgid "%d GB"
+msgstr "%d GB"
+
+#, python-format
+msgid "%d MB"
+msgstr "%d MB"
+
+#, python-format
+msgid "%d Min"
+msgstr "%d min"
+
+msgid "-"
+msgstr "-"
+
+msgid "-    HH:MM"
+msgstr ""
+
+msgid "Add Setup to extension menu"
+msgstr "Aggiungere configurazione al menu estensioni"
+
+msgid "Add Show to extension menu"
+msgstr "Aggiungere visualizzazione al menu estensioni"
+
+msgid "Background transparency"
+msgstr "Trasparenza sfondo"
+
+msgid "Begin"
+msgstr "Inizio"
+
+msgid "Cancel"
+msgstr "Annull."
+
+msgid "Channel Name"
+msgstr "Nome canale"
+
+msgid "Channel Number"
+msgstr "Numero canale"
+
+msgid "Configuration"
+msgstr "Configurazione"
+
+msgid "DD.MM HH:MM"
+msgstr "GG.MM HH:MM"
+
+msgid "DD.MM. HH:MM"
+msgstr ""
+
+msgid "DD.MM.YYYY HH:MM"
+msgstr "GG.MM.YYYY HH:MM"
+
+msgid "Destination"
+msgstr "Destinazione"
+
+msgid "Destination / Client"
+msgstr "Destinazione / Client"
+
+msgid "Duration"
+msgstr "Durata"
+
+msgid "Enable InfoBarTunerState"
+msgstr "Abilitare InfoBarTunerState"
+
+msgid "End"
+msgstr "Fine"
+
+msgid "End record"
+msgstr ""
+
+#, python-format
+msgid "Field %d content"
+msgstr "Contenuto campo %d"
+
+#, python-format
+msgid "Field %d width"
+msgstr ""
+
+msgid "File Size"
+msgstr "Dimensioni file"
+
+msgid "Finished"
+msgstr "Terminato"
+
+msgid "Free Space"
+msgstr "Spazio libero"
+
+msgid "HH:MM"
+msgstr "HH:MM"
+
+msgid "HH:MM DD.MM"
+msgstr "HH:MM GG.MM"
+
+msgid "HH:MM DD.MM.YYYY"
+msgstr "HH:MM GG.MM.YYYY"
+
+msgid "HH:MM MM/DD"
+msgstr "HH:MM MM/GG"
+
+msgid "HH:MM YYYY/MM/DD"
+msgstr "HH:MM YYYY/MM/GG"
+
+msgid "Horizontal offset left in pixel"
+msgstr ""
+
+msgid "Horizontal offset right in pixel"
+msgstr ""
+
+msgid "InfoBarTunerState"
+msgstr "InfoBarTunerState"
+
+msgid "InfoBarTunerState Setup"
+msgstr "Configurazione InfoBar TunerState"
+
+msgid "InfoBarTunerState is disabled"
+msgstr "InfoBarTunerState è disabilitato"
+
+msgid "Infobar timeout"
+msgstr "Persistenza barra informazioni"
+
+msgid "List goes up"
+msgstr ""
+
+msgid "MM/DD HH:MM"
+msgstr "MM/GG HH:MM"
+
+msgid "MoviePlayer integration"
+msgstr "Integrazione con MoviePlayer"
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "None"
+msgstr "Nulla"
+
+msgid "Nothing running"
+msgstr "Nulla è attivo"
+
+msgid "Number of finished records in list"
+msgstr "Numero delle registrazioni terminate in elenco"
+
+msgid "Number of pending records in list"
+msgstr ""
+
+msgid "Number of seconds for displaying finished records"
+msgstr "Persistenza messaggio registrazione terminata (secondi)"
+
+msgid "OK"
+msgstr "Ok"
+
+msgid "Only one Graphical Progress field allowed:"
+msgstr "Consentire un solo campo di progresso grafico:"
+
+msgid "Only one Icon field allowed:"
+msgstr "Consentire un solo campo icona:"
+
+msgid "Only one Name field allowed:"
+msgstr ""
+
+msgid "Placeholder for Progressbar"
+msgstr ""
+
+msgid "Prepare / Start / End record"
+msgstr ""
+
+msgid "Prepare record"
+msgstr ""
+
+msgid "Really close without saving settings?"
+msgstr ""
+
+msgid "Record"
+msgstr "Registrazione"
+
+msgid "Show InfoBarTunerState"
+msgstr "Mostrare InfoBar Tuner State"
+
+msgid "Show Message when Recording starts"
+msgstr "Mostrare messaggio su avvio registrazione"
+
+msgid "Show and hide with InfoBar"
+msgstr "Mostrare/Nascondere con la barra informazioni"
+
+msgid "Show on events"
+msgstr "Mostrare su eventi"
+
+msgid "Show streams"
+msgstr "Mostrare stream"
+
+msgid "Start / End record"
+msgstr ""
+
+msgid "Start record"
+msgstr ""
+
+msgid "Stream"
+msgstr "Stream"
+
+msgid "Stream Client"
+msgstr "Client stream"
+
+msgid "Stream Client with Port"
+msgstr "Client stream con porta"
+
+msgid "Text padding offset in pixel"
+msgstr "Offset testo dal bordo (pixel)"
+
+msgid "Text spacing offset in pixel"
+msgstr "Offset spaziatura testo (pixel)"
+
+msgid "Time Elapsed"
+msgstr "Tempo trascorso"
+
+msgid "Time Left"
+msgstr "Tempo residuo"
+
+msgid "Time Left / Duration"
+msgstr "Tempo residuo / Durata"
+
+msgid "Time format begin"
+msgstr ""
+
+msgid "Time format end"
+msgstr ""
+
+msgid "Timer Progress (Graphical)"
+msgstr "Progresso timer (grafico)"
+
+msgid "Timer Progress (Text)"
+msgstr "Progresso timer (testo)"
+
+msgid "Tuner"
+msgstr "Tuner"
+
+msgid "Tuner State"
+msgstr ""
+
+msgid "Tuner Type"
+msgstr "Tipo tuner"
+
+msgid "Type (Icon)"
+msgstr "Tipo (icona)"
+
+msgid "Type (Text)"
+msgstr "Tipo (testo)"
+
+msgid "Usage"
+msgstr "Utilizzo"
+
+msgid "Variable field width"
+msgstr ""
+
+msgid "Vertical offset in pixel"
+msgstr "Offset verticale (pixel)"
+
+msgid "WD DD.MM. HH:MM"
+msgstr ""
+
+msgid "WD, DD.MM. HH:MM"
+msgstr ""
+
+msgid "YYYY/MM/DD HH:MM"
+msgstr "YYYY/MM/GG HH:MM"
+
+msgid "configuration"
+msgstr "Configurazione"
+
+#~ msgid "Horizontal offset in pixel"
+#~ msgstr "Offset orizzontale (pixel)"
+
+#~ msgid "Time format"
+#~ msgstr "Formato ora"

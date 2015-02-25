@@ -1,0 +1,2 @@
+Description: redirect notifications to growl
+Depends: enigma2, python-twisted-protocols, python-netclient, python-crypt, python-re, python-threading, python-lang

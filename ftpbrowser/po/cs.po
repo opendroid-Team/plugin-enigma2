@@ -1,0 +1,226 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2-plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-27 21:28+0100\n"
+"PO-Revision-Date: 2009-09-23 23:40+0200\n"
+"Last-Translator: jerry00 <jerry00@quick.cz>\n"
+"Language-Team: none\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, python-format
+msgid "%d kb/s"
+msgstr "%d kbs"
+
+msgid "A basic FTP client"
+msgstr "Základní FTP klient"
+
+#, python-format
+msgid ""
+"A file with this name (%s) already exists locally.\n"
+"Do you want to overwrite it?"
+msgstr ""
+"Soubor s názvem (%s) již lokálně existuje.\n"
+"Chcete ho přepsat?"
+
+#, python-format
+msgid ""
+"A file with this name (%s) already exists on the remote host.\n"
+"Do you want to overwrite it?"
+msgstr ""
+"Soubor s názvem (%s) již vzdáleně existuje.\n"
+"Chcete ho přepsat?"
+
+msgid ""
+"A transfer is currently in progress.\n"
+"What do you want to do?"
+msgstr ""
+"Právě probíhá přenos.\n"
+"Co chcete udělat?"
+
+msgid "Abort transfer"
+msgstr "Přerušit přenos"
+
+msgid "Add"
+msgstr "Přidat"
+
+msgid "Address:"
+msgstr "Adresa:"
+
+#, python-format
+msgid "Are you sure you want to delete %s?"
+msgstr "Opravdu chcete %s smazat?"
+
+msgid "Cancel"
+msgstr "Zrušit"
+
+msgid "Configuration saved."
+msgstr "Konfigurace uložena"
+
+msgid "Connect to FTP..."
+msgstr "Připojení k FTP..."
+
+msgid "Could not connect to ftp server!"
+msgstr "S FTP serverem se nelze spojit!"
+
+#, python-format
+msgid "Could not delete %s."
+msgstr ""
+
+msgid "Could not obtain list of files."
+msgstr "Nelze smazat %s."
+
+#, python-format
+msgid "Could not rename %s."
+msgstr "Nelze přejmenovat %s."
+
+msgid "Delete"
+msgstr "Smazat"
+
+msgid "Download"
+msgstr "Stáhnout"
+
+msgid "Download finished."
+msgstr "Stažení dokončeno."
+
+#, python-format
+msgid "ETA %d:%02d min"
+msgstr ""
+
+msgid "Edit"
+msgstr "Upravit"
+
+msgid "Enter URI"
+msgstr "Vložte URL"
+
+msgid "Enter URI of FTP Server:"
+msgstr "Vložte URL FTP serveru:"
+
+msgid "Enter new filename:"
+msgstr "Vložte nový název:"
+
+msgid "Error"
+msgstr "Chyba"
+
+msgid "Error during download."
+msgstr "Chyba během stahování"
+
+msgid "Exit"
+msgstr "Konec"
+
+msgid "FTP Queue Manager"
+msgstr "Správce fronty FTP"
+
+msgid "FTP Server Editor"
+msgstr "Editor FTP serveru"
+
+msgid "FTP Server Manager"
+msgstr "Správce FTP serveru"
+
+msgid "Local"
+msgstr "Místní"
+
+msgid "Name:"
+msgstr "Název:"
+
+msgid "OK"
+msgstr ""
+
+msgid "Parent Directory"
+msgstr "Roď. složka"
+
+msgid "Passive:"
+msgstr ""
+
+msgid "Password:"
+msgstr "Heslo:"
+
+msgid "Port:"
+msgstr ""
+
+msgid "Queue Manager"
+msgstr "Správce fronty"
+
+msgid "Queue processed."
+msgstr "Fronta dokončena."
+
+msgid ""
+"Really delete this entry?\n"
+"It cannot be recovered!"
+msgstr "A nelze to vrátit!"
+
+msgid "Remote"
+msgstr "Vzdálené"
+
+msgid "Remote (not connected)"
+msgstr "Vzdálené (nepřipojeno)"
+
+#, python-format
+msgid "Removed %s."
+msgstr "Odebráno %s."
+
+msgid "Removing directories is not supported."
+msgstr "Odstranění adresářů není podporováno."
+
+msgid "Rename"
+msgstr "Přejmenovat"
+
+#, python-format
+msgid "Renamed %s to %s."
+msgstr "Přejmenováno %s na %s."
+
+msgid "Run in Background"
+msgstr "Spustit na pozadí"
+
+msgid "Save"
+msgstr "Uložit"
+
+msgid "Select local file list"
+msgstr "Vyberte seznam lokálních"
+
+msgid "Select remote file list"
+msgstr "Vyberte seznam vzdálených"
+
+msgid "Server Manager"
+msgstr "Správce serveru"
+
+msgid ""
+"There already is an active connection.\n"
+"Do you want to abort it?"
+msgstr ""
+"Nějaké spojení je již aktivní.\n"
+"Chcete ho přerušit?"
+
+msgid "There already is an active transfer."
+msgstr "Nějaký přenos je již aktivní."
+
+msgid "Upload"
+msgstr "Odeslat"
+
+msgid "Upload finished."
+msgstr "Odeslání dokončeno."
+
+msgid "Username:"
+msgstr "Uživatel:"
+
+msgid "Which server do you want to connect to?"
+msgstr "Který server chcete připojit?"
+
+msgid "close"
+msgstr "zavřít"
+
+msgid "enter directory/get file/put file"
+msgstr "vložit adresář/načíst soubor/vložit soubor"
+
+msgid "open menu"
+msgstr "otevřít menu"
+
+#~ msgid "Name"
+#~ msgstr "Název"
+
+#~ msgid "Pasive:"
+#~ msgstr "Pasivní:"

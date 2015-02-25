@@ -1,0 +1,2 @@
+Description: YTTrailer: watch trailer from epglist/eventview
+Depends: enigma2, python-twisted-web, python-gdata, gst-plugins-good-flv

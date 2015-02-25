@@ -1,0 +1,261 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BMediaCenter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-26 22:27+0100\n"
+"PO-Revision-Date: 2013-01-26 22:29+0100\n"
+"Last-Translator: \n"
+"Language-Team: bonkel\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: C:\\Users\\Benny\\Documents\\HDMU\\git\\plugins"
+"\\Extensions\\BMediaCenter\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: C:\\Users\\Benny\\Documents\\HDMU\\git\\plugins"
+"\\Extensions\\BMediaCenter\n"
+
+msgid ""
+"\n"
+"Artist: "
+msgstr ""
+"\n"
+"Interpret: "
+
+msgid ""
+"\n"
+"Comment: "
+msgstr ""
+"\n"
+"Kommentar: "
+
+msgid ""
+"\n"
+"Year: "
+msgstr ""
+"\n"
+"Jahr:"
+
+msgid "Cache Thumbnails"
+msgstr "Vorschau cachen"
+
+msgid "City"
+msgstr "Stadt"
+
+msgid "Delete failed!"
+msgstr "Löschen fehlgeschlagen"
+
+msgid "Directory"
+msgstr "Ordner"
+
+msgid "Directory:"
+msgstr "Ordner:"
+
+msgid "Do you really want to delete %s?"
+msgstr "Möchtest du wirklich %s löschen?"
+
+msgid "Do you really want to delete this directory and it's content ?"
+msgstr "Willst du diesen Ordner samt den Inhalt wirklich löschen?"
+
+msgid "Do you really want to delete this file ?"
+msgstr "Willst du die Datei wirklich löschen?"
+
+msgid ""
+"Error loading filelist into server %s:\n"
+"%s"
+msgstr ""
+"Fehler beim Laden der Dateiliste in den Server %s:\n"
+"%s"
+
+msgid ""
+"Error loading playlist %s into server %s:\n"
+"%s"
+msgstr ""
+"Fehler beim Aktualisieren %s der Wiedergabeliste vom Server %s:\n"
+"%s"
+
+msgid ""
+"Error loading playlist into server %s:\n"
+"%s"
+msgstr ""
+"Fehler beim Laden der Wiedergabeliste in den Server %s:\n"
+"%s"
+
+msgid ""
+"Error updating file- and playlist from server %s:\n"
+"%s"
+msgstr ""
+"Fehler beim Aktualisieren der Datei- und Wiedergabeliste vom Server %s:\n"
+"%s"
+
+msgid ""
+"Error updating filelist from server %s:\n"
+"%s"
+msgstr ""
+"Fehler beim Aktualisieren der Dateiliste vom Server %s:\n"
+"%s"
+
+msgid ""
+"Error with VLC server:\n"
+"%s"
+msgstr ""
+"Fehler mit dem VLC Server :\n"
+"%s"
+
+msgid "Favorites"
+msgstr "Favoriten"
+
+msgid "List of Storage Devices"
+msgstr "Liste der Speichergeräte"
+
+msgid "Lyrics"
+msgstr "Songtexte"
+
+msgid "My Music"
+msgstr "Meine Musik"
+
+msgid "My Pictures"
+msgstr "Meine Bilder"
+
+msgid "My Videos"
+msgstr "Meine Videos"
+
+msgid "No lyrics found"
+msgstr "Keine Songtexte gefunden"
+
+msgid "Please enter filename (empty = use current date)"
+msgstr "Bitte gib den Dateinamen ein (leer= benutz aktuelles Datum)"
+
+msgid "Please select a playlist to delete..."
+msgstr "Bitte wähle eine Wiedergabeliste die gelöscht werden soll..."
+
+msgid "Please select a playlist..."
+msgstr "Bitte wählen Sie eine Wiedergabeliste..."
+
+msgid "Really delete this Server?"
+msgstr "Willst du diesen Server wirklich löschen?"
+
+msgid "Really delete this favorite?"
+msgstr "Willst du diesen Favoriten wirklich löschen?"
+
+msgid "Response -> lyrics for: %s (%s)"
+msgstr "Rückmeldung -> Songtexte für %s (%s)"
+
+msgid "Save Playlist"
+msgstr "Wiedergabeliste speichern"
+
+msgid "Screensaver Interval"
+msgstr "Bildschirmschoner Intervall"
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Slideshow Interval (sec.)"
+msgstr "Slideshow Intervall (sek.)"
+
+msgid "This Dreambox can't decode %s video streams!"
+msgstr "Diese OpenAFF Box kann diese  Videostreams nicht wiedergeben! (%s)"
+
+msgid "Thumbnail Height"
+msgstr "Vorschau Höhe"
+
+msgid "Thumbnail Width"
+msgstr "Vorschau Breite"
+
+msgid "Title: "
+msgstr "Titel:"
+
+msgid "Weather Info"
+msgstr "Wetter Infos"
+
+msgid ""
+"You have to close playlist before you can go to the next song while playing "
+"from file browser."
+msgstr ""
+"Du musst die Wiedergabeliste schließen, bevor du den nächsten Song aus dem "
+"Filebrowser abspielen kannst."
+
+msgid ""
+"You have to close playlist before you can go to the previous song while "
+"playing from file browser."
+msgstr ""
+"Du musst die Wiedergabeliste schließen, bevor du den vorhergehenden Song aus "
+"dem Filebrowser abspielen kannst."
+
+msgid "add all files in directory to playlist"
+msgstr "Alle Dateien im Ordner zur Wiedergabeliste hinzufügen"
+
+msgid "add directory to playlist"
+msgstr "Ordner zur WIedergabeliste hinzufügen"
+
+msgid "add file to playlist"
+msgstr "Datei zur Wiedergabeliste hinzufügen"
+
+msgid "add file to playlist and play"
+msgstr "Datei zur Wiedergabeliste hinzufügen und abspielen"
+
+msgid "backgroundcolor"
+msgstr "Hintergrundfarbe"
+
+msgid "better"
+msgstr "Besser"
+
+msgid "black"
+msgstr "schwarz"
+
+msgid "blue"
+msgstr "blau"
+
+msgid "clear playlist"
+msgstr "Wiedergabeliste leeren"
+
+msgid "delete directory"
+msgstr "Ordner löschen"
+
+msgid "delete file"
+msgstr "Datei löschen"
+
+msgid "delete from playlist"
+msgstr "Von Wiedergabeliste löschen"
+
+msgid "delete saved playlist"
+msgstr "Gespeicherte Wiedergabeliste löschen"
+
+msgid "filename"
+msgstr "Dateiname"
+
+msgid "green"
+msgstr "grÃ¼n"
+
+msgid "load playlist"
+msgstr "Wiedergabeliste laden"
+
+msgid "manual"
+msgstr "manuell"
+
+msgid "nothing connected"
+msgstr "Keine Verbindung"
+
+msgid "please wait, loading picture..."
+msgstr "Bitte warten während das Bild geladen wird..."
+
+msgid "red"
+msgstr "rot"
+
+msgid "save playlist"
+msgstr "Wiedergabeliste speichern"
+
+msgid "show Infoline"
+msgstr "Information anzeigen"
+
+msgid "simple"
+msgstr "Einfach"
+
+msgid "textcolor"
+msgstr "Textfarbe"
+
+msgid "yellow"
+msgstr "gelb"

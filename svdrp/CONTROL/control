@@ -1,0 +1,2 @@
+Description: basic remote control server using svdrp
+Depends: enigma2, python-twisted-protocols

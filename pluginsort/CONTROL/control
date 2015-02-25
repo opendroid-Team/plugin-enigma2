@@ -1,0 +1,2 @@
+Description: sort entries in the plugin browser
+Depends: enigma2, python-shell, python-xml, python-codecs, python-lang, enigma2-plugin-systemplugins-mphelp

@@ -1,0 +1,2 @@
+Description: Google Maps Enigma2 Client
+Depends: enigma2, python-twisted-web

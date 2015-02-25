@@ -1,0 +1,2 @@
+Description: rss viewer for the enigma2 gui
+Depends: enigma2, python-twisted-web, python-codecs, python-xml, enigma2-plugin-extensions-mediadownloader, enigma2-plugin-systemplugins-toolkit

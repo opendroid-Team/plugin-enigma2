@@ -1,0 +1,2 @@
+Description: allows to access the epg from the standard movie player
+Depends: enigma2, python-lang

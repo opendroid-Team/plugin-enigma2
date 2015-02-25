@@ -1,0 +1,2 @@
+Description: displays service name instead of number when zapping via number keys
+Depends: enigma2

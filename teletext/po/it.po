@@ -1,0 +1,275 @@
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2 - teletext\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-27 21:28+0100\n"
+"PO-Revision-Date: 2012-06-05 18:58+0100\n"
+"Last-Translator: Spaeleus <spaeleus@croci.org>\n"
+"Language-Team: www.linsat.net <spaeleusòcroci.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .../enigma2-plugins/teletext\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: Italy\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .../enigma2-plugins/teletext\n"
+
+msgid "<empty>"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Arabic"
+msgstr "Arabo"
+
+msgid "Background caching"
+msgstr ""
+
+msgid "Brightness"
+msgstr "Luminosità"
+
+msgid "Cancel"
+msgstr "Annull."
+
+msgid "Central and Southeast Europe"
+msgstr "Europa Centrale e SudOrientale"
+
+msgid "Clear all"
+msgstr ""
+
+msgid "Contrast"
+msgstr "Contrasto"
+
+msgid "Cyrillic"
+msgstr "Cirillico"
+
+msgid "Debug"
+msgstr "Debug"
+
+msgid "Default"
+msgstr "Predefinito"
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete all favorites?"
+msgstr ""
+
+msgid "Delete favorite?"
+msgstr ""
+
+msgid "Disabled"
+msgstr "Disabilitato"
+
+msgid "Discard changes?"
+msgstr "Annullare le modifiche?"
+
+msgid "Display edges"
+msgstr "Mostrare i margini"
+
+msgid "Display first and last row."
+msgstr "Visualizzare la prima e l'ultima riga."
+
+msgid "Eastern Europe"
+msgstr "Europa Orientale"
+
+msgid "Edit"
+msgstr ""
+
+#, python-format
+msgid "Enter text for page %s"
+msgstr ""
+
+msgid ""
+"Enter values (left, top, right, bottom) or press TEXT to move and resize the "
+"teletext graphically."
+msgstr ""
+"Inserire i valori (Sx, Alto, Dx, Basso) o premere EXIT per muovere e "
+"ridimensionare il teletext graficamente."
+
+msgid "Hebrew / Arabic"
+msgstr "Ebraico / Arabo"
+
+msgid ""
+"If caching is disabled, each teletext page will searched when you entered "
+"its number."
+msgstr ""
+
+msgid "No teletext available."
+msgstr "Teletext non disponibile."
+
+msgid "OK"
+msgstr "Ok"
+
+msgid "Position and size"
+msgstr "Posizione e dimensioni"
+
+msgid "Print debug messages to /tmp/dbttcp.log."
+msgstr "Salvare i messaggi di debug in /tmp/dbttcp.log."
+
+msgid "Region"
+msgstr "Regione"
+
+msgid "Scale filter"
+msgstr "Filtro scaling"
+
+msgid "Scale filter zoom"
+msgstr "Zoom filtro scaling"
+
+msgid "Select"
+msgstr ""
+
+msgid "Select brightness."
+msgstr "Regolare la luminosità."
+
+msgid "Select contrast."
+msgstr "Regolare il contrasto."
+
+msgid "Select splitting mode."
+msgstr "Selezionare modalità divisa."
+
+msgid "Select teletext"
+msgstr ""
+
+msgid "Select teletext version to use."
+msgstr "Selezionare la versione teletext da utilizzare."
+
+msgid "Select transparency."
+msgstr "Regolare la trasparenza."
+
+msgid "Select your favourite scale filter."
+msgstr "Selezionare il filtro scaling desiderato."
+
+msgid "Select your region to use the proper font."
+msgstr ""
+"Selezionare la propria Regione per l'utilizzo dei caratteri appropriati."
+
+msgid "Splitting mode"
+msgstr "Schermo diviso"
+
+msgid "TeleText favorites"
+msgstr ""
+
+msgid "TeleText settings"
+msgstr "Configurazione TeleText"
+
+msgid "Text level"
+msgstr "Livello testo"
+
+msgid "Transparency"
+msgstr "Trasparenza"
+
+msgid "Turkish / Greek"
+msgstr "Turco / Greco"
+
+msgid "Western Europe and Turkey"
+msgstr "Europa Occodentale e Turchia"
+
+msgid "Western and Central Europe"
+msgstr "Europa Centrale e Occidentale"
+
+msgid "anisotropic"
+msgstr "Anisotropico"
+
+msgid "bilinear"
+msgstr "Bilineare"
+
+msgid "blue teletext link"
+msgstr "Link teletext Blu"
+
+msgid "enter page number"
+msgstr "Inserire numero pagina"
+
+msgid "enter page number / page 100"
+msgstr "Inserire il numero pagina / Pagina 100"
+
+msgid "enter page number / rezap"
+msgstr "Inserire numero pagina / Rezap"
+
+msgid "exit"
+msgstr "Uscire"
+
+msgid "favorites / decrease height"
+msgstr ""
+
+msgid "green teletext link"
+msgstr "Link teletext Verde"
+
+msgid "next channel / channel list"
+msgstr ""
+
+msgid "next page / catch page / move"
+msgstr "Pagina successiva / Spostare"
+
+msgid "next sub page / move"
+msgstr "Sottopagina succ. / Spostare"
+
+msgid "picture and teletext"
+msgstr "Immagine e teletext"
+
+msgid "prev channel / channel list"
+msgstr ""
+
+msgid "prev page / catch page / move"
+msgstr "Pagina precedente / Spostare"
+
+msgid "prev sub page / move"
+msgstr "Sottopagina prec. / Spostare"
+
+msgid "red teletext link"
+msgstr "Link teletext Rosso"
+
+msgid "sharp"
+msgstr "Nitido"
+
+msgid "sharper"
+msgstr "Più nitido"
+
+msgid "split screen"
+msgstr "Dividere lo schermo"
+
+msgid "start page catching / select page"
+msgstr "Selezionare la pagina"
+
+msgid "teletext and picture"
+msgstr "Teletext e immagine"
+
+msgid "teletext in picture"
+msgstr "Teletext nell'immagine"
+
+msgid "teletext settings"
+msgstr "Configurazione teletext"
+
+msgid "toggle flof/top"
+msgstr ""
+
+msgid "toggle info"
+msgstr "Nascondere l'informazione"
+
+msgid "toggle transparency"
+msgstr "Commutare trasparenza."
+
+msgid "yellow teletext link"
+msgstr "Link teletext Giallo"
+
+msgid "zoom / increase height"
+msgstr "Zoom / Aumentare altezza"
+
+#~ msgid "Message"
+#~ msgstr "Messaggio"
+
+#~ msgid "Show message if no teletext available or exit silently."
+#~ msgstr "Mostrare un messaggio su teletext non disponibile."
+
+#~ msgid "decrease height"
+#~ msgstr "Diminuire altezza"
+
+#~ msgid "toggle flof"
+#~ msgstr "Commutare FLOF"

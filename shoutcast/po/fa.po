@@ -1,0 +1,249 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: shoutcast Persian Translation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-03 15:01+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Persian Prince <persianprince@persianpros.org>\n"
+"Language-Team: Persian Professionals <persianpros@yahoo.com>\n"
+"Language: Persian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../src\n"
+
+#, python-format
+msgid ""
+"%s\n"
+"Press OK to try again..."
+msgstr ""
+
+#, python-format
+msgid ""
+"%s\n"
+"Press green-button to try again..."
+msgstr ""
+
+msgid ">= 128 kbps"
+msgstr ">= 128 kbps"
+
+msgid ">= 192 kbps"
+msgstr ">= 192 kbps"
+
+msgid ">= 256 kbps"
+msgstr ">= 256 kbps"
+
+msgid ">= 64 kbps"
+msgstr ">= 64 kbps"
+
+msgid "Add current playing stream to favorite"
+msgstr "افزودن یک موسیقی در حال پخش به لیست مورد علاقه انتخاب شده فعلی"
+
+msgid "Add current selected genre to favorite"
+msgstr "افزودن یک موسیقی به لیست مورد علاقه انتخاب شده فعلی"
+
+msgid "Add current selected station to favorite"
+msgstr "افزودن یک ایستگاه به لیست مورد علاقه انتخاب شده فعلی"
+
+msgid "Add sequence number to output file"
+msgstr "اضافه کردن به ترتیب شماره برای فایل خروجی"
+
+msgid "All"
+msgstr "همه"
+
+#, python-format
+msgid "Audio: %s"
+msgstr ""
+
+#, python-format
+msgid "Bit rate: %s kbps"
+msgstr ""
+
+msgid "Cancel"
+msgstr "لغو کردن"
+
+msgid "Config"
+msgstr "پیکربندی"
+
+msgid "Coverheight:"
+msgstr ""
+
+msgid "Coverwidth:"
+msgstr ""
+
+msgid "Create a directory for each stream"
+msgstr "ایجاد یک دایرکتوری برای هر موسیقی در حال پخش"
+
+msgid "Do you really want to stop the recording?"
+msgstr "آیا واقعا می خواهید ضبط کردن را متوقف کنید"
+
+msgid "Enter in minutes (0 means unlimited)"
+msgstr ""
+
+msgid "Enter new name for favorite item"
+msgstr "انتخاب یک نام جدید برای لیست علاقه مندی ها"
+
+msgid "Enter text to search for"
+msgstr "افزودن یک کلمه در قسمت جستجو"
+
+msgid "Error downloading cover..."
+msgstr ""
+
+msgid "Favorite list"
+msgstr "لیست علاقه مندی ها"
+
+msgid "Favorites"
+msgstr "علاقه مندی ها"
+
+msgid "Genres"
+msgstr "نوع موسیقی"
+
+#, python-format
+msgid "Getting %s"
+msgstr ""
+
+#, python-format
+msgid "Getting SHOUTcast genre list for %s..."
+msgstr ""
+
+msgid "Getting SHOUTcast genre list..."
+msgstr "گرفتن لیست موسیقی"
+
+#, python-format
+msgid ""
+"Getting streaming data from\n"
+"%s"
+msgstr ""
+
+msgid ""
+"Got 0 genres. Could be a network problem.\n"
+"Please try again..."
+msgstr ""
+
+msgid "Hide"
+msgstr "مخفی سازی"
+
+msgid "Invalid Location"
+msgstr "مکان ناشناس"
+
+msgid "No streaming data found..."
+msgstr "هیچ موسیقی در حال پخشی یافت نشد"
+
+msgid "OK"
+msgstr "اوکی"
+
+msgid "Off"
+msgstr "خاموش"
+
+msgid "Only running streamings can be recorded!"
+msgstr ""
+
+msgid "Record"
+msgstr "ضبط کردن"
+
+msgid "Recording length"
+msgstr "طول فایل ضبط شده"
+
+msgid "Recording location:"
+msgstr "ضبط مکان"
+
+msgid "Recording stream station"
+msgstr "ضبط کردن موسیقی "
+
+msgid "Reload station list:"
+msgstr "بارگذاری مجدد لیست ایستگاه"
+
+msgid "Rip to single file, name is timestamped"
+msgstr ""
+
+msgid "SHOUTcast genre list"
+msgstr "لیست موسیقی های تلوزیونی"
+
+#, python-format
+msgid "SHOUTcast station list for %s"
+msgstr ""
+
+msgid "Search"
+msgstr "جستجو"
+
+#, python-format
+msgid "Searching SHOUTcast for %s..."
+msgstr ""
+
+msgid "Show cover:"
+msgstr ""
+
+msgid "Show in extension menu:"
+msgstr "نمایش در قسمت افزونه های منو"
+
+#, python-format
+msgid "Station: %s"
+msgstr ""
+
+msgid "Stations"
+msgstr "ایستگاه رادیویی"
+
+msgid "Stop record"
+msgstr "توقف ضبط کردن"
+
+msgid "Stream stopped playing, playback of stream stopped!"
+msgstr ""
+
+msgid "Streaming rate:"
+msgstr "بیت ریت موسیقی در حال پخش"
+
+#, python-format
+msgid "Title: %s"
+msgstr "عنوان : %s"
+
+msgid "Title: n/a"
+msgstr ""
+
+msgid "every five minutes"
+msgstr "هر 5 دقیقه"
+
+msgid "every minute"
+msgstr "هر دقیقه"
+
+msgid "every three minutes"
+msgstr "هر 3 دقیقه"
+
+#, python-format
+msgid "genre %s"
+msgstr "ژانر %s"
+
+msgid "listen to shoutcast internet-radio"
+msgstr ""
+
+msgid "remove current selected favorite"
+msgstr "حذف لیست مورد علاقه انتخاب شده فعلی"
+
+msgid "rename current selected favorite"
+msgstr "تغییر نام لیست مورد علاقه انتخاب شده فعلی"
+
+#, python-format
+msgid "search-criteria %s"
+msgstr ""
+
+#~ msgid "Description:"
+#~ msgstr "توضیحات"
+
+#~ msgid "Listen to SHOUTcast Internet Radio"
+#~ msgstr "گوش دادن به رادیوی اینترنتی در تلوزیون"
+
+#~ msgid "Name (needs GUI restart):"
+#~ msgstr "نام ( نیاز به یک ریستارت )"
+
+#~ msgid "SHOUTcast"
+#~ msgstr "تلویزیون"
+
+#~ msgid "Setup"
+#~ msgstr "راه اندازی"
+
+#~ msgid "Show in (needs GUI restart):"
+#~ msgstr "نمایش ( نیاز به یک ریستارت )"
+
+#~ msgid "Ver."
+#~ msgstr "ورژن."

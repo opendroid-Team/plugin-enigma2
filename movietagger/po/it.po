@@ -1,0 +1,91 @@
+# Signed-off-by: Dario Croci <spaeleus@croci.org>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2 - movietagger\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-27 21:28+0100\n"
+"PO-Revision-Date: 2012-02-29 22:56+0100\n"
+"Last-Translator: Spaeleus <spaeleus@croci.org>\n"
+"Language-Team: www.linsat.net <spaeleus@croci.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .../enigma2-plugins/movietagger\n"
+"X-Poedit-SearchPath-0: .../enigma2-plugins/movietagger\n"
+
+msgid "Add Tag"
+msgstr "Agg. etich."
+
+msgid "Add new Tag"
+msgstr "Nuova etich."
+
+msgid "Assigned Tags"
+msgstr "Etich. assegnate"
+
+msgid "Can't write movietags, because no meta-file found!"
+msgstr "Scrittura etichette impossibile: meta-file non trovato!"
+
+msgid "Clear all Tags"
+msgstr "Rimuovere tutto"
+
+msgid ""
+"Clear all Tags?\n"
+"\n"
+"This will delete ALL tags in ALL recodings!\n"
+"Are you sure?"
+msgstr ""
+"Rimuovere tutte le etichette?\n"
+"\n"
+"Verranno cancellati TUTTE le etichette di TUTTE le registrazioni!\n"
+"Proseguire comunque?"
+
+msgid "Enter the new Tag"
+msgstr "Inserire la nuova etichetta"
+
+msgid "Movie Tagger"
+msgstr "Movie Tagger"
+
+msgid "Movie Tagger..."
+msgstr "Etichettare video..."
+
+msgid "Predefined Tag"
+msgstr "Etich predefinita"
+
+msgid "Remove Tag"
+msgstr "Canc. etich."
+
+msgid "Specified Tags"
+msgstr "Etich specifica"
+
+msgid "Toggle List"
+msgstr "Elenco On/Off"
+
+msgid "Used Tag"
+msgstr "Etich. usata"
+
+msgid "User-specific Tag"
+msgstr "Etich. personalizzata"
+
+msgid "Ver."
+msgstr "Ver."
+
+msgid "Whitepace will be replaced by \"_\""
+msgstr "Gli spazi saranno sostituiti da \"_\""
+
+#~ msgid "blue"
+#~ msgstr "Blu"
+
+#~ msgid "green"
+#~ msgstr "Verde"
+
+#~ msgid "red"
+#~ msgstr "Rosso"
+
+#~ msgid "yellow"
+#~ msgstr "Giallo"

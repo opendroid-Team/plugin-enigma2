@@ -1,0 +1,139 @@
+# German translations for enigma package.
+# Copyright (C) 2009 THE enigma'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the enigma package.
+# Automatically generated, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Enigma 2 IMDb Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-27 18:11+0100\n"
+"PO-Revision-Date: 2013-03-19 22:23+0100\n"
+"Last-Translator: xxx\n"
+"Language-Team: none\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid " as "
+msgstr " som "
+
+msgid "Ambiguous results"
+msgstr "Tvetydigt resultat"
+
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgid "Cast: "
+msgstr "Roll: "
+
+msgid "Channel Selection"
+msgstr "Kanallista"
+
+msgid "Could't get Eventname"
+msgstr "Kunde inte få händelsenamn"
+
+msgid "Details"
+msgstr "Info"
+
+#, python-format
+msgid "Downloading Movie Poster: %s..."
+msgstr "Ladda ner Film poster: %s..."
+
+msgid "Enable this to be able to access the IMDb from within the plugin browser."
+msgstr "Aktivera detta för att kunna få tillgång till IMDb i Pluginlistan."
+
+msgid "Enter search"
+msgstr "Skriv in sökning"
+
+msgid "Enter text to search for"
+msgstr "Skriv text att söka efter"
+
+msgid "Exit"
+msgstr "Avsluta"
+
+msgid "Extra Info"
+msgstr "Extra info"
+
+msgid "IMDb Details"
+msgstr "IMDb-information"
+
+msgid "IMDb Details parsed"
+msgstr "IMDb info analyseras"
+
+msgid "IMDb Download completed"
+msgstr "IMDb nedladdning klar"
+
+msgid "IMDb Download failed"
+msgstr "IMDb nedladdning misslyckades"
+
+msgid "IMDb Plugin"
+msgstr "IMDb Plugin"
+
+msgid "IMDb Re-Download completed"
+msgstr "IMDb omnedladdning klar"
+
+msgid "IMDb Setup"
+msgstr "IMDb-inställningar"
+
+msgid "IMDb query failed!"
+msgstr "IMDb förfrågan misslyckades!"
+
+msgid "Lookup"
+msgstr "Sök"
+
+msgid "No IMDb match."
+msgstr "Ingen IMDb matchning."
+
+msgid "No cast list found in the database."
+msgstr "Ingen rolllista funnen i databasen."
+
+msgid "No details found."
+msgstr "Ingen info funnen."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Play Trailer"
+msgstr "Spela upp Trailer"
+
+msgid "Please select the matching entry"
+msgstr "Vänligen välj matchande post"
+
+#, python-format
+msgid "Query IMDb: %s..."
+msgstr "Frågar IMDb om: %s..."
+
+msgid "Query details from the Internet Movie Database"
+msgstr "Filminformation från Internet Movie Databas"
+
+#, python-format
+msgid "Re-Query IMDb: %s..."
+msgstr "Omfråga IMDb om: %s..."
+
+msgid "Search Trailer"
+msgstr "Sök Trailer"
+
+msgid "Select from EPG"
+msgstr "Välj från EPG"
+
+msgid "Setup"
+msgstr "Ställ in"
+
+msgid "Show in plugin browser"
+msgstr "Visa i Pluginlista"
+
+msgid "The Internet Movie Database"
+msgstr "Internet Movie Databas"
+
+msgid "Title Menu"
+msgstr "Titelmeny"
+
+msgid "User Rating"
+msgstr "Betyg"
+
+msgid "no user rating yet"
+msgstr "Inte betygsatt ännu"
+

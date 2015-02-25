@@ -1,0 +1,4 @@
+Description: VPS-Plugin
+Replaces: enigma2-plugin-extensions-vps
+Conflicts: enigma2-plugin-extensions-vps
+Depends: enigma2

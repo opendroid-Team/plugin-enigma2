@@ -1,0 +1,2 @@
+Description: set startup service
+Depends: enigma2

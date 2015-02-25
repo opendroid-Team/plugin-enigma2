@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: vlc player\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-03 15:02+0000\n"
+"PO-Revision-Date: 2012-07-26 00:56+0330\n"
+"Last-Translator: mehdi <mehdi_ar_yekta@yahoo.com>\n"
+"Language-Team: Persian Professionals <persianpros@yahoo.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Persian\n"
+"X-Poedit-Country: IRAN, ISLAMIC REPUBLIC OF\n"
+
+msgid "A video streaming solution based on VLC"
+msgstr "یک روش نمایش ویدئو با استفاده پلیر وی ال سی"
+
+msgid "Audio Bitrate"
+msgstr "بیت ریت صوتی"
+
+msgid "Audio Channels"
+msgstr "کانال های صوتی"
+
+msgid "Audio Codec"
+msgstr "کدهای صوتی"
+
+msgid "Audio Samplerate"
+msgstr "نرخ نمونه صوتی"
+
+msgid "Cancel"
+msgstr "لغو کردن"
+
+msgid "DVD Device (leave empty for default)"
+msgstr ""
+
+msgid "Enter VLC-Server as FQDN or IP-Address"
+msgstr ""
+
+#, python-format
+msgid ""
+"Error loading filelist into server %(server)s:\n"
+"%(error)s"
+msgstr ""
+
+#, python-format
+msgid ""
+"Error loading playlist %(media)s into server %(server)s:\n"
+"%(error)s"
+msgstr ""
+
+#, python-format
+msgid ""
+"Error loading playlist into server %(server)s:\n"
+"%(error)s"
+msgstr ""
+
+#, python-format
+msgid ""
+"Error updating filelist from server %(server)s:\n"
+"%(error)s"
+msgstr ""
+
+#, python-format
+msgid ""
+"Error with VLC server:\n"
+"%s"
+msgstr ""
+
+msgid "Filelist"
+msgstr "فهرست پوشه ها"
+
+msgid "HTTP Port"
+msgstr ""
+
+msgid "List of known VLC-Server Profiles"
+msgstr "فهرست از پزوفایل سرورهای شناخته شده وی ال سی"
+
+msgid "Movie Directory"
+msgstr "دایرکتوری فیلم ها"
+
+msgid "No more files in this directory"
+msgstr "فایل های زیادی در این دایرکتوری نیست"
+
+msgid "No previous file in this directory"
+msgstr "هیچ فایل قبلی در این دایرکتوری نیست"
+
+msgid ""
+"No valid Enigma-Service to play a VLC-Stream\n"
+"Check your installation and try again!"
+msgstr ""
+
+msgid "OK"
+msgstr "مورد تایید است"
+
+#, python-format
+msgid "Overscan Correction [in %(percentsign)s of Video width]"
+msgstr ""
+
+msgid "Playlist"
+msgstr "فهرست پخش "
+
+msgid "Really delete this Server?"
+msgstr "واقعا قصد حذف این سرور را دارید ؟"
+
+msgid "Server Address"
+msgstr "آدرس سرور"
+
+msgid "Server Profile Name"
+msgstr "نام پروفایل سرور"
+
+msgid "Serverlist"
+msgstr "فهرست سرورها "
+
+msgid "Subtitle overlay"
+msgstr "پوشش زیرنویس ها"
+
+msgid "Transcode MPEG/DVD Audio"
+msgstr ""
+
+msgid "Transcode MPEG/DVD Video"
+msgstr ""
+
+msgid "Video Bitrate"
+msgstr ""
+
+msgid "Video Codec"
+msgstr ""
+
+msgid "Video Norm"
+msgstr ""
+
+msgid "add server"
+msgstr "اضافه کردن سرور"
+
+msgid "delete server"
+msgstr "حذف کردن سرور"
+
+msgid "edit server"
+msgstr "ویرایش کردن سرور"
+
+msgid "filter off"
+msgstr "خاموش کردن فیلتر"
+
+msgid "filter on"
+msgstr "فعال کردن فیلتر"
+
+msgid "play DVD"
+msgstr "پخش یک دی وی دی"
+
+msgid "refresh"
+msgstr "بازآوری"
+
+msgid "set default"
+msgstr "تنظیم پیش فرض "

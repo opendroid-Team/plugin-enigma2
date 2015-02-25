@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: simple rss Persian Translation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-03 15:01+0000\n"
+"PO-Revision-Date: 2012-07-26 01:21+0330\n"
+"Last-Translator: mehdi <mehdi_ar_yekta@yahoo.com>\n"
+"Language-Team: Persian Professionals <persianpros@yahoo.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Persian\n"
+"X-Poedit-Country: IRAN, ISLAMIC REPUBLIC OF\n"
+
+#, python-format
+msgid "%d Feed(s) were added to configuration."
+msgstr ""
+
+msgid "A simple to use RSS reader"
+msgstr ""
+
+msgid "Autoupdate"
+msgstr "بروزرسانی خودکار"
+
+msgid "Cancel"
+msgstr "لغور کردن"
+
+msgid "Close"
+msgstr "بستن"
+
+msgid "Delete"
+msgstr "حذف کردن"
+
+msgid "Enclosures"
+msgstr "ضمائم"
+
+msgid "Entries"
+msgstr "نوشته ها"
+
+#, python-format
+msgid "Entry %s/%s"
+msgstr ""
+
+msgid "Error while parsing Feed, this usually means there is something wrong with it."
+msgstr "اشکال تجزیه و تحلیل خبر ، که معمولا به معنی این است که خطایی همراه آن است "
+
+msgid "Failed to get subscriptions from Google Reader."
+msgstr "ناموفق در گرفتن اشتراک از گوگل ریدر"
+
+msgid "Failed to login to Google Reader."
+msgstr "ناموفق در ورود به گوگل ریدر"
+
+msgid "Feed"
+msgstr ""
+
+#, python-format
+msgid "Feed %s/%s"
+msgstr ""
+
+msgid "Feed URI"
+msgstr ""
+
+msgid "Feed is empty."
+msgstr ""
+
+msgid "Fetch feeds from Google Reader?"
+msgstr ""
+
+msgid "Found no Enclosure we can display."
+msgstr ""
+
+msgid "Google Password"
+msgstr "رمز عبور گوگل"
+
+msgid "Google Username"
+msgstr "نام کاربری گوگل"
+
+msgid "Keep running in background"
+msgstr "در حال اجرا پس زمینه"
+
+msgid "New"
+msgstr "جدید"
+
+msgid "New Items"
+msgstr "گزینه جدید"
+
+msgid "New Items since last Auto-Update"
+msgstr "گزینه جدید از زمان آخرین بروزرسانی"
+
+msgid "No such Item."
+msgstr "نبود گزینه های زیاد"
+
+msgid "Notification"
+msgstr "اخطار"
+
+msgid "OK"
+msgstr "مورد تایید است"
+
+msgid "Preview"
+msgstr "پیش نمایش "
+
+msgid ""
+"Really delete this entry?\n"
+"It cannot be recovered!"
+msgstr ""
+
+#, python-format
+msgid "Received %d new news item(s)."
+msgstr ""
+
+msgid "Setup"
+msgstr "راه اندازی"
+
+msgid "Show new Messages as"
+msgstr "نمایش پیام جدید به عنوان ..."
+
+msgid "Simple RSS Reader"
+msgstr "یک آر اس اس ساده"
+
+msgid "Simple RSS Reader Setup"
+msgstr "راه اندازی یک آر اس اس ساده"
+
+#, python-format
+msgid "Simple RSS Reader: %s"
+msgstr ""
+
+#, python-format
+msgid ""
+"Sorry, this type of feed is unsupported:\n"
+"%s"
+msgstr ""
+
+msgid "Start automatically with Enigma2"
+msgstr "راه اندازی خودکار همزمان با انیگما 2"
+
+msgid "Subscribe Newsfeed..."
+msgstr "اشتراک اخبار سایت ..."
+
+msgid "Ticker"
+msgstr ""
+
+msgid "Update Feed"
+msgstr "بروزرسانی اخبار سایت ..."
+
+msgid "Update Interval (min)"
+msgstr "به روز رسانی بازه ی زمانی بر حسب دقیقه"
+
+msgid ""
+"Update is being done in Background.\n"
+"Contents will automatically be updated when it's done."
+msgstr ""
+
+msgid "View RSS..."
+msgstr "نمایش آر اس اس"
+
+msgid "What to do?"
+msgstr "چه کاری انجام دهید؟"
+
+msgid "none"
+msgstr "هیچ چی"

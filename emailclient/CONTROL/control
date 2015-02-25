@@ -1,0 +1,2 @@
+Description: a imap4 client to access imap accounts and read emails 
+Depends: enigma2, python-twisted-web, python-twisted-mail, python-email, python-pyopenssl, python-shell, python-textutils

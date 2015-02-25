@@ -1,0 +1,14 @@
+installdir = $(libdir)/enigma2/python/Plugins/SkinComponents/WeatherComponent
+converterinstalldir = $(libdir)/enigma2/python/Components/Converter
+componentsinstalldir = $(libdir)/enigma2/python/Components
+rendererinstalldir = $(libdir)/enigma2/python/Components/Renderer
+sourcesinstalldir = $(libdir)/enigma2/python/Components/Sources
+install_DATA = README
+componentsinstall_PYTHON = Components/WeatherMSN.py
+componentsinstall_PYTHON = Components/WeatherMSN.pyo
+converterinstall_PYTHON = Components/Converter/MSNWeather.py
+converterinstall_PYTHON = Components/Converter/MSNWeather.pyo
+rendererinstall_PYTHON = Components/Renderer/MSNWeatherPixmap.py
+rendererinstall_PYTHON = Components/Renderer/MSNWeatherPixmap.pyo
+sourcesinstall_PYTHON = Components/Sources/MSNWeather.py
+sourcesinstall_PYTHON = Components/Sources/MSNWeather.pyo

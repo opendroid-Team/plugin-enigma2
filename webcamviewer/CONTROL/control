@@ -1,0 +1,2 @@
+Description: view Pictures and Webcams on your TV Screen
+Depends: enigma2, python-twisted-web, python-shell

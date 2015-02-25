@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: imdb Persian Translation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-03 15:01+0000\n"
+"PO-Revision-Date: 2012-07-25 22:59+0330\n"
+"Last-Translator: mehdi <mehdi_ar_yekta@yahoo.com>\n"
+"Language-Team: Persian Professionals <persianpros@yahoo.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Persian\n"
+"X-Poedit-Country: IRAN, ISLAMIC REPUBLIC OF\n"
+
+msgid " as "
+msgstr "به عنوان"
+
+msgid "Ambiguous results"
+msgstr "نتایج مبهم"
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Cast: "
+msgstr "پخش کردن :"
+
+msgid "Channel Selection"
+msgstr "انتخاب کانال"
+
+msgid "Could't get Eventname"
+msgstr "تهیه کردن نام رویداد ها ممکن نیست"
+
+msgid "Details"
+msgstr "جزئیات"
+
+#, python-format
+msgid "Downloading Movie Poster: %s..."
+msgstr "%s... در حال بارگذاری پوستر فیلم "
+
+msgid "Enable this to be able to access the IMDb from within the plugin browser."
+msgstr ""
+
+msgid "Enter search"
+msgstr ""
+
+msgid "Enter text to search for"
+msgstr ""
+
+msgid "Exit"
+msgstr "خارج شدن"
+
+msgid "Extra Info"
+msgstr "اطلاعات اضافی"
+
+msgid "IMDb Details"
+msgstr ""
+
+msgid "IMDb Details parsed"
+msgstr "IMDb تجزیه و تحلیل دقیق"
+
+msgid "IMDb Download completed"
+msgstr "IMDb بصورت کامل بارگذاری گردید"
+
+msgid "IMDb Download failed"
+msgstr "ناموفق بود IMDb  بارگذاری"
+
+msgid "IMDb Plugin"
+msgstr "IMDb پلاگین"
+
+msgid "IMDb Re-Download completed"
+msgstr "کامل گردید IMDb بارگذاری مجدد"
+
+msgid "IMDb Setup"
+msgstr ""
+
+msgid "IMDb query failed!"
+msgstr "ناموفق گردید IMDb پرس و جوی"
+
+msgid "Lookup"
+msgstr "مراجعه"
+
+msgid "No IMDb match."
+msgstr "IMDb سازگار نیست"
+
+msgid "No cast list found in the database."
+msgstr "هیچ لیست توزیعی در بانک اطلاعاتی پیدا نشد"
+
+msgid "No details found."
+msgstr "هیچ جزئیاتی یافت نشد"
+
+msgid "OK"
+msgstr ""
+
+msgid "Play Trailer"
+msgstr ""
+
+msgid "Please select the matching entry"
+msgstr "لطفا ورودی های سازگار را انتخاب کنید"
+
+#, python-format
+msgid "Query IMDb: %s..."
+msgstr ""
+
+msgid "Query details from the Internet Movie Database"
+msgstr "پرس و جو از بانک اطلاعاتی فیلم های اینترنتی "
+
+#, python-format
+msgid "Re-Query IMDb: %s..."
+msgstr ""
+
+msgid "Search Trailer"
+msgstr ""
+
+msgid "Select from EPG"
+msgstr ""
+
+msgid "Setup"
+msgstr ""
+
+msgid "Show in plugin browser"
+msgstr ""
+
+msgid "The Internet Movie Database"
+msgstr "بانک اطلاعاتی فیلم های اینترنتی"
+
+msgid "Title Menu"
+msgstr "عنوان منو"
+
+msgid "User Rating"
+msgstr ""
+
+msgid "no user rating yet"
+msgstr "هیچ کاربری هنوز رتبه بندی نشده است"
