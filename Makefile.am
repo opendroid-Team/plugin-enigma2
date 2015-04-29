@@ -127,8 +127,6 @@ SUBDIRS += \
 	mytube \
 	yttrailer \
 	webinterface \
-	menusort \
-	pluginhider \
 	pluginsort 
 endif
 
