@@ -1,7 +1,6 @@
 from __future__ import print_function
 
 from Components.SystemInfo import SystemInfo
-from enigma import pNavigation
 
 # MessageBox
 from Screens.MessageBox import MessageBox
@@ -35,11 +34,7 @@ class RecordAdapter:
 		print("[EPGRefresh.RecordAdapter.play]")
 		if not self.backgroundRefreshAvailable: return False
 		self.stopStreaming()
-		try:
-			#not all images support recording type indicators
-			self.__service = self.navcore.recordService(service,False,pNavigation.isPseudoRecording|pNavigation.isFromEPGrefresh)
-		except:
-			self.__service = self.navcore.recordService(service)
+		self.__service = self.navcore.recordService(service)
 		if self.__service is not None:
 			self.__service.prepareStreaming()
 			self.__service.start()
