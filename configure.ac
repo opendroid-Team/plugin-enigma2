@@ -342,11 +342,6 @@ epgsearch/meta/Makefile
 epgsearch/po/Makefile
 epgsearch/src/Makefile
 
-epgsearchpli/Makefile
-epgsearchpli/meta/Makefile
-epgsearchpli/po/Makefile
-epgsearchpli/src/Makefile
-
 eurotictv/Makefile
 eurotictv/meta/Makefile
 eurotictv/po/Makefile

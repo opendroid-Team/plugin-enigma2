@@ -133,7 +133,7 @@ SUBDIRS += \
 endif
 
 if PLI
-SUBDIRS += networkbrowserpli epgsearchpli
+SUBDIRS += networkbrowserpli 
 else
 SUBDIRS += networkbrowser epgsearch
 endif
