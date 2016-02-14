@@ -453,10 +453,7 @@ mediadownloader/meta/Makefile
 mediadownloader/po/Makefile
 mediadownloader/src/Makefile
 
-menusort/Makefile
-menusort/meta/Makefile
-menusort/src/Makefile
-menusort/po/Makefile
+
 
 merlinepg/Makefile
 merlinepg/meta/Makefile
@@ -592,10 +589,7 @@ pipservicerelation/Makefile
 pipservicerelation/src/Makefile
 pipservicerelation/meta/Makefile
 
-pluginhider/Makefile
-pluginhider/meta/Makefile
-pluginhider/po/Makefile
-pluginhider/src/Makefile
+
 
 pluginsort/Makefile
 pluginsort/meta/Makefile
