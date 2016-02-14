@@ -1,2 +1,0 @@
-Description: allows to reorder entries of the main menu
-Depends: enigma2, python-shell, python-xml, python-codecs, python-lang
