@@ -20,7 +20,7 @@ msgstr ""
 msgid "Add AutoTimer"
 msgstr "+ AutoČasovač"
 
-msgid "Add Timer"
+msgid "Add timer"
 msgstr "+ Časovač"
 
 msgid "Cancel"

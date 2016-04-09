@@ -13,6 +13,7 @@ from Screens.ChannelSelection import SimpleChannelSelection
 from Screens.ChoiceBox import ChoiceBox
 from Screens.EpgSelection import EPGSelection
 from Screens.MessageBox import MessageBox
+from Screens.HelpMenu import HelpableScreen
 from Screens.Screen import Screen
 from Plugins.SystemPlugins.Toolkit.NTIVirtualKeyBoard import NTIVirtualKeyBoard
 
@@ -52,9 +53,10 @@ service_types_tv = '1:7:1:0:0:0:0:0:0:0:(type == 1) || (type == 17) || (type == 
 class EPGSearchList(EPGList):
 	def __init__(self, type=EPG_TYPE_SINGLE, selChangedCB=None, timer=None):
 		EPGList.__init__(self, type, selChangedCB, timer)
+		self.listSizeWidth = None
+		self.screenwidth = getDesktop(0).size().width()
 		self.l.setBuildFunc(self.buildEPGSearchEntry)
 
-		self.screenwidth = getDesktop(0).size().width()
 		if PartnerBoxIconsEnabled:
 			# Partnerbox Clock Icons
 			self.partnerbox_clocks = [ LoadPixmap(cached=True, path=resolveFilename(SCOPE_PLUGINS, 'Extensions/EPGSearchicons/epgclock_add.png')),
@@ -65,6 +67,10 @@ class EPGSearchList(EPGList):
 					LoadPixmap(cached=True, path=resolveFilename(SCOPE_PLUGINS, 'Extensions/EPGSearchicons/epgclock_add.png'))]
 
 	def buildEPGSearchEntry(self, service, eventId, beginTime, duration, EventName):
+		lsw = self.l.getItemSize().width()
+		if self.listSizeWidth != lsw: #recalc size if scrollbar is shown
+			self.listSizeWidth = lsw
+			self.recalcEntrySize()
 		self.wasEntryAutoTimer = None
 		clock_pic = self.getPixmapForEntry(service, eventId, beginTime, duration)
 		clock_pic_partnerbox = None
@@ -129,6 +135,7 @@ class EPGSearch(EPGSelection):
 	def __init__(self, session, *args):
 		Screen.__init__(self, session)
 		self.skinName = ["EPGSearch", "EPGSelection"]
+		HelpableScreen.__init__(self)
 
 		self.searchargs = args
 		self.currSearch = ""
