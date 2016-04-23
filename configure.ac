@@ -758,17 +758,6 @@ vps/src_py/web-data/Makefile
 vps/src_py/WebComponents/Makefile
 vps/src_py/WebComponents/Sources/Makefile
 
-weatherplugin/Makefile
-weatherplugin/meta/Makefile
-weatherplugin/po/Makefile
-weatherplugin/src/Makefile
-weatherplugin/src/icons/Makefile
-
-weathercomponent/Makefile
-weathercomponent/src/Makefile
-
-weathercomponenthandler/Makefile
-weathercomponenthandler/src/Makefile
 
 
 webadmin/Makefile
