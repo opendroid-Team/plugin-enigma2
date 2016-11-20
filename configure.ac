@@ -98,6 +98,7 @@ AM_CONDITIONAL(VUSOLO, test "$BOXTYPE" == vusolo)
 AM_CONDITIONAL(VUDUO, test "$BOXTYPE" == vuduo)
 AM_CONDITIONAL(VUSOLO2, test "$BOXTYPE" == vusolo2)
 AM_CONDITIONAL(VUDUO2, test "$BOXTYPE" == vuduo2)
+AM_CONDITIONAL(XC7346, test "$BOXTYPE" == xc7346)
 AM_CONDITIONAL(XP1000, test "$BOXTYPE" == xp1000)
 
 
@@ -330,7 +331,6 @@ epgrefresh/meta/Makefile
 epgrefresh/po/Makefile
 epgrefresh/src/Makefile
 epgrefresh/src/localehelp/Makefile
-epgrefresh/src/webinterface/Makefile
 
 esame/Makefile
 esame/meta/Makefile
@@ -346,6 +346,7 @@ epgsearchpli/Makefile
 epgsearchpli/meta/Makefile
 epgsearchpli/po/Makefile
 epgsearchpli/src/Makefile
+epgsearchpli/src/icons/Makefile
 
 eurotictv/Makefile
 eurotictv/meta/Makefile
@@ -453,7 +454,9 @@ mediadownloader/meta/Makefile
 mediadownloader/po/Makefile
 mediadownloader/src/Makefile
 
-
+menusort/Makefile
+menusort/meta/Makefile
+menusort/src/Makefile
 
 merlinepg/Makefile
 merlinepg/meta/Makefile
@@ -477,7 +480,6 @@ merlinmusicplayer/meta/Makefile
 merlinmusicplayer/po/Makefile
 merlinmusicplayer/src/Makefile
 merlinmusicplayer/src/images/Makefile
-merlinmusicplayer/src/merlinmp3player/Makefile
 
 mosaic/Makefile
 mosaic/meta/Makefile
@@ -589,7 +591,10 @@ pipservicerelation/Makefile
 pipservicerelation/src/Makefile
 pipservicerelation/meta/Makefile
 
-
+pluginhider/Makefile
+pluginhider/meta/Makefile
+pluginhider/po/Makefile
+pluginhider/src/Makefile
 
 pluginsort/Makefile
 pluginsort/meta/Makefile
@@ -655,10 +660,8 @@ seriesplugin/po/Makefile
 seriesplugin/src/Makefile
 seriesplugin/src/Images/Makefile
 seriesplugin/src/Logos/Makefile
+seriesplugin/src/Skins/Makefile
 seriesplugin/src/Identifiers/Makefile
-seriesplugin/src/Identifiers/bs4/Makefile
-seriesplugin/src/Identifiers/bs4/builder/Makefile
-seriesplugin/src/Identifiers/pkg/Makefile
 
 setpasswd/Makefile
 setpasswd/meta/Makefile

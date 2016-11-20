@@ -119,11 +119,17 @@ if VUULTIMO
 SUBDIRS +=  fancontrol2
 endif
 
+if XC7346
+SUBDIRS +=  fancontrol2
+endif
+
 if TPM
 SUBDIRS += \
 	mytube \
 	yttrailer \
 	webinterface \
+	menusort \
+	pluginhider \
 	pluginsort 
 endif
 

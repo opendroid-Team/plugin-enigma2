@@ -183,7 +183,7 @@ config.plugins.FanControl.DeleteData = ConfigSelection(choices = [("0", _("no"))
 config.plugins.FanControl.EnableConsoleLog = ConfigYesNo(default = False)
 config.plugins.FanControl.EnableDataLog = ConfigYesNo(default = False)
 config.plugins.FanControl.EnableEventLog = ConfigYesNo(default = False)
-config.plugins.FanControl.CheckHDDTemp = ConfigSelection(choices = [("false", _("no")), ("true", _("yes")), ("auto", _("auto")), ("never", _("never"))], default="auto")
+config.plugins.FanControl.CheckHDDTemp = ConfigSelection(choices = [("false", _("no")), ("true", _("yes")), ("auto", _("auto")), ("never", _("never"))], default="never")
 config.plugins.FanControl.MonitorInExtension = ConfigYesNo(default = True)
 config.plugins.FanControl.FanControlInExtension = ConfigYesNo(default = True)
 config.plugins.FanControl.Multi = ConfigSelection(choices = [("1", "RPM"), ("2", "RPM/2")], default = "2")
@@ -1294,6 +1294,9 @@ def selSetup(menuid, **kwargs):
 	if getImageDistro() in ('openhdf'):
 		if menuid != "devices_menu":
 			return [ ]
+	elif getImageDistro() in ('openatv'):
+		if menuid != "extended":
+			return []
 	else:
 		if menuid != "system":
 			return []
