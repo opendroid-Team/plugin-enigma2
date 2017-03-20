@@ -14,7 +14,6 @@
 #include <lib/base/init_num.h>
 #include <lib/base/init.h>
 #include <lib/dvb/decoder.h>
-#include <lib/dvb/epgcache.h>
 #include <lib/dvb/pmt.h>
 
 #define MAX(a,b) ((a) > (b) ? (a) : (b))
