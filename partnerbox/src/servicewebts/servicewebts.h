@@ -1,3 +1,12 @@
+/*******************************************************************************
+ VLC Player Plugin by A. L√§tsch 2007
+
+ This is free software; you can redistribute it and/or modify it under
+ the terms of the GNU General Public License as published by the Free
+ Software Foundation; either version 2, or (at your option) any later
+ version.
+********************************************************************************/
+
 #ifndef __servicewebts_h
 #define __servicewebts_h
 
@@ -5,6 +14,10 @@
 #include <lib/base/message.h>
 #include <lib/service/iservice.h>
 #include <lib/dvb/dvb.h>
+
+
+
+
 
 #define PRIVATE_STREAM1  0xBD
 #define PRIVATE_STREAM2  0xBF
@@ -19,6 +32,12 @@
 #define IN_SIZE		 65424
 
 #define PID_MASK_HI      0x1F
+
+
+
+
+
+
 
 
 class eStaticServiceWebTSInfo;
@@ -37,22 +56,6 @@ public:
 	RESULT list(const eServiceReference &, ePtr<iListableService> &ptr);
 	RESULT info(const eServiceReference &, ePtr<iStaticServiceInformation> &ptr);
 	RESULT offlineOperations(const eServiceReference &, ePtr<iServiceOfflineOperations> &ptr);
-private:
-	ePtr<eStaticServiceWebTSInfo> m_service_info;
-};
-
-class eStaticServiceWebTSInfo: public iStaticServiceInformation
-{
-	DECLARE_REF(eStaticServiceWebTSInfo);
-	friend class eServiceFactoryWebTS;
-	eStaticServiceWebTSInfo();
-public:
-	RESULT getName(const eServiceReference &ref, std::string &name);
-	int getLength(const eServiceReference &ref);
-	int getInfo(const eServiceReference &ref, int w);
-	int isPlayable(const eServiceReference &ref, const eServiceReference &ignore, bool simulate) { return 1; }
-	long long getFileSize(const eServiceReference &ref);
-	RESULT getEvent(const eServiceReference &ref, ePtr<eServiceEvent> &ptr, time_t start_time);
 };
 
 class TSAudioInfoWeb {
@@ -87,6 +90,7 @@ public:
 	RESULT info(ePtr<iServiceInformation>&);
 
 	// not implemented
+	RESULT setTarget(int target) { return -1; };
 	RESULT setTarget(int target, bool noaudio = false) { return -1; };
 	RESULT setSlowMotion(int ratio) { return -1; };
 	RESULT setFastForward(int ratio) { return -1; };
@@ -128,12 +132,11 @@ public:
 	int getCurrentTrack();
 
 	// iAudioChannelSelection
-	int getCurrentChannel() { return iAudioChannelSelection_ENUMS::STEREO; };
+	int getCurrentChannel() { return iAudioChannelSelection::STEREO; }
 	RESULT selectChannel(int i) { return 0; };
 
 private:
 	friend class eServiceFactoryWebTS;
-	eServiceReference m_reference;
 	std::string m_filename;
 	int m_vpid, m_apid;
 	int m_destfd;
@@ -179,3 +182,4 @@ private:
 };
 
 #endif
+

@@ -1,3 +1,15 @@
+
+/*******************************************************************************
+ VLC Player Plugin by A. L√§tsch 2007
+
+ Modified by Dr. Best
+
+ This is free software; you can redistribute it and/or modify it under
+ the terms of the GNU General Public License as published by the Free
+ Software Foundation; either version 2, or (at your option) any later
+ version.
+********************************************************************************/
+
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
@@ -14,15 +26,20 @@
 #include <lib/base/init_num.h>
 #include <lib/base/init.h>
 #include <lib/dvb/decoder.h>
+
 #include <lib/dvb/pmt.h>
 
 #define MAX(a,b) ((a) > (b) ? (a) : (b))
 
-/* TODO: Get rid of these statics */
-static int VPID = 0;
-static int PID_SET = 0;
-static int APID = 0;
-static int H264=0;
+int VPID = 0;
+int PID_SET = 0;
+int APID = 0;
+int H264=0;
+
+
+/********************************************************************/
+/* eServiceFactoryWebTS                                                */
+/********************************************************************/
 
 eServiceFactoryWebTS::eServiceFactoryWebTS()
 {
@@ -34,8 +51,6 @@ eServiceFactoryWebTS::eServiceFactoryWebTS()
 		std::list<std::string> extensions;
 		sc->addServiceFactory(eServiceFactoryWebTS::id, this, extensions);
 	}
-
-	m_service_info = new eStaticServiceWebTSInfo();
 }
 
 eServiceFactoryWebTS::~eServiceFactoryWebTS()
@@ -70,7 +85,7 @@ RESULT eServiceFactoryWebTS::list(const eServiceReference &, ePtr<iListableServi
 
 RESULT eServiceFactoryWebTS::info(const eServiceReference &ref, ePtr<iStaticServiceInformation> &ptr)
 {
-	ptr = m_service_info;
+	ptr = 0;
 	return -1;
 }
 
@@ -80,69 +95,6 @@ RESULT eServiceFactoryWebTS::offlineOperations(const eServiceReference &, ePtr<i
 	return -1;
 }
 
-/*
- * eStaticServiceWebTSInfo
- * required to in order to display name in bouquets instead of n/a
- */
-DEFINE_REF(eStaticServiceWebTSInfo)
-
-eStaticServiceWebTSInfo::eStaticServiceWebTSInfo()
-{
-}
-
-RESULT eStaticServiceWebTSInfo::getName(const eServiceReference &ref, std::string &name)
-{
-	name = ref.name;
-	if (name.empty())
-	{
-		name = ref.path;
-		size_t n = name.rfind('/');
-		if (n != std::string::npos)
-			name = name.substr(n + 1);
-	}
-	return 0;
-}
-
-int eStaticServiceWebTSInfo::getLength(const eServiceReference &ref)
-{
-	return -1;
-}
-
-int eStaticServiceWebTSInfo::getInfo(const eServiceReference &ref, int w)
-{
-	switch (w)
-	{
-	case iServiceInformation::sTimeCreate:
-	{
-		struct stat s;
-		if (!stat(ref.path.c_str(), &s))
-			return s.st_mtime;
-	}
-	break;
-	case iServiceInformation::sFileSize:
-	{
-		struct stat s;
-		if (!stat(ref.path.c_str(), &s))
-			return s.st_size;
-	}
-	break;
-	}
-	return iServiceInformation::resNA;
-}
-
-long long eStaticServiceWebTSInfo::getFileSize(const eServiceReference &ref)
-{
-	struct stat s;
-	if (!stat(ref.path.c_str(), &s))
-		return s.st_size;
-	return 0;
-}
-
-RESULT eStaticServiceWebTSInfo::getEvent(const eServiceReference &ref, ePtr<eServiceEvent> &evt, time_t start_time)
-{
-	evt = 0;
-	return -1;
-}
 
 /********************************************************************/
 /* TSAudioInfoWeb                                            */
@@ -163,7 +115,7 @@ void TSAudioInfoWeb::addAudio(int pid, std::string lang, std::string desc, int t
 /* eServiceWebTS                                                       */
 /********************************************************************/
 
-eServiceWebTS::eServiceWebTS(const eServiceReference &url): m_reference(url), m_pump(eApp, 1)
+eServiceWebTS::eServiceWebTS(const eServiceReference &url): m_pump(eApp, 1)
 {
 	eDebug("ServiceWebTS construct!");
 	m_filename = url.path.c_str();
@@ -181,7 +133,7 @@ eServiceWebTS::~eServiceWebTS()
 
 DEFINE_REF(eServiceWebTS);
 
-static size_t crop(char *buf)
+size_t crop(char *buf)
 {
 	size_t len = strlen(buf) - 1;
 	while (len > 0 && (buf[len] == '\r' || buf[len] == '\n')) {
@@ -258,11 +210,11 @@ int eServiceWebTS::openHttpConnection(std::string url)
 	}
 
 	std::string request = "GET ";
-	request.append(uri).append(" HTTP/1.1\r\n");
-	request.append("Host: ").append(host).append("\r\n");
-	request.append("Accept: */*\r\n");
-	request.append("Connection: close\r\n");
-	request.append("\r\n");
+	request.append(uri).append(" HTTP/1.1\n");
+	request.append("Host: ").append(host).append("\n");
+	request.append("Accept: */*\n");
+	request.append("Connection: close\n");
+	request.append("\n");
 	//eDebug(request.c_str());
 	write(fd, request.c_str(), request.length());
 
@@ -315,7 +267,7 @@ RESULT eServiceWebTS::start()
 		eDebug("Cannot allocate decode-demux");
 		return -1;
 	}
-	if (m_decodedemux->getMPEGDecoder(m_decoder) != 0) {
+	if (m_decodedemux->getMPEGDecoder(m_decoder, 1) != 0) {
 		eDebug("Cannot allocate MPEGDecoder");
 		return -1;
 	}
@@ -487,14 +439,10 @@ RESULT eServiceWebTS::info(ePtr<iServiceInformation>&i)
 
 RESULT eServiceWebTS::getName(std::string &name)
 {
-	name = m_reference.name;
-	if (name.empty())
-	{
-		name = m_reference.path;
-		size_t n = name.rfind('/');
-		if (n != std::string::npos)
-			name = name.substr(n + 1);
-	}
+	name = m_filename;
+	size_t n = name.rfind('/');
+	if (n != std::string::npos)
+		name = name.substr(n + 1);
 	return 0;
 }
 
@@ -505,20 +453,6 @@ int eServiceWebTS::getInfo(int w)
 
 std::string eServiceWebTS::getInfoString(int w)
 {
-	switch (w)
-	{
-	case sProvider:
-		return "IPTV";
-	case sServiceref:
-	{
-		eServiceReference ref(m_reference);
-		ref.type = eServiceFactoryWebTS::id;
-		ref.path.clear();
-		return ref.toString();
-	}
-	default:
-		break;
-	}
 	return "";
 }
 
@@ -628,7 +562,7 @@ bool eStreamThreadWeb::scanAudioInfo(unsigned char buf[], int len)
 	if (len < 1880)
 		return false;
 
-	int adaptfield, offset;
+	int adaptfield, pmtpid, offset;
 	unsigned char pmt[1188];
 	int pmtsize = 0;
 
@@ -655,6 +589,7 @@ bool eStreamThreadWeb::scanAudioInfo(unsigned char buf[], int len)
 			continue;
 		}
 
+		pmtpid = (0x1F & buf[a + 1])<<8 | (0xFF & buf[a + 2]);
 		memcpy(pmt + pmtsize, buf + a + 4 + offset, 184 - offset);
 		pmtsize += 184 - offset;
 
@@ -714,18 +649,6 @@ bool eStreamThreadWeb::scanAudioInfo(unsigned char buf[], int len)
 				if (APID == 0)
 					APID =pid;
 			}
-			break;
-		case 0x0f:
-			if (APID == 0)
-				APID =pid;
-			lang = getDescriptor(pmt+b+5, pmt[b+4], LANGUAGE_DESCRIPTOR);
-			ainfo->addAudio(pid, lang, "AAC", eDVBAudio::aAAC);
-			break;
-		case 0x11:
-			if (APID == 0)
-				APID =pid;
-			lang = getDescriptor(pmt+b+5, pmt[b+4], LANGUAGE_DESCRIPTOR);
-			ainfo->addAudio(pid, lang, "AACHE", eDVBAudio::aAACHE);
 			break;
 		}
 		b += 4 + pmt[b+4];
@@ -829,3 +752,9 @@ void eStreamThreadWeb::thread_finished() {
 }
 
 eAutoInitPtr<eServiceFactoryWebTS> init_eServiceFactoryWebTS(eAutoInitNumbers::service+1, "eServiceFactoryWebTS");
+
+PyMODINIT_FUNC
+initservicewebts(void)
+{
+	Py_InitModule("servicewebts", NULL);
+}
