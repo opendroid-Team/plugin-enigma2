@@ -75,7 +75,7 @@ public:
 class eStreamThreadWeb;
 class eServiceWebTS: public iPlayableService, public iPauseableService,
 	public iServiceInformation, public iSeekableService,
-	public iAudioTrackSelection, public iAudioChannelSelection, public Object
+	public iAudioTrackSelection, public iAudioChannelSelection, public sigc::trackable
 {
 DECLARE_REF(eServiceWebTS);
 public:
