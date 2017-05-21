@@ -1,3 +1,12 @@
+/*******************************************************************************
+ VLC Player Plugin by A. L√§tsch 2007
+
+ This is free software; you can redistribute it and/or modify it under
+ the terms of the GNU General Public License as published by the Free
+ Software Foundation; either version 2, or (at your option) any later
+ version.
+********************************************************************************/
+
 #ifndef __servicewebts_h
 #define __servicewebts_h
 
@@ -5,6 +14,10 @@
 #include <lib/base/message.h>
 #include <lib/service/iservice.h>
 #include <lib/dvb/dvb.h>
+
+
+
+
 
 #define PRIVATE_STREAM1  0xBD
 #define PRIVATE_STREAM2  0xBF
@@ -19,6 +32,12 @@
 #define IN_SIZE		 65424
 
 #define PID_MASK_HI      0x1F
+
+
+
+
+
+
 
 
 class eStaticServiceWebTSInfo;
@@ -163,3 +182,4 @@ private:
 };
 
 #endif
+

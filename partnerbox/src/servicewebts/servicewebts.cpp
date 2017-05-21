@@ -1,3 +1,15 @@
+
+/*******************************************************************************
+ VLC Player Plugin by A. L√§tsch 2007
+
+ Modified by Dr. Best
+
+ This is free software; you can redistribute it and/or modify it under
+ the terms of the GNU General Public License as published by the Free
+ Software Foundation; either version 2, or (at your option) any later
+ version.
+********************************************************************************/
+
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
@@ -14,6 +26,7 @@
 #include <lib/base/init_num.h>
 #include <lib/base/init.h>
 #include <lib/dvb/decoder.h>
+
 #include <lib/dvb/pmt.h>
 
 #define MAX(a,b) ((a) > (b) ? (a) : (b))
