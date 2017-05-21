@@ -37,22 +37,6 @@ public:
 	RESULT list(const eServiceReference &, ePtr<iListableService> &ptr);
 	RESULT info(const eServiceReference &, ePtr<iStaticServiceInformation> &ptr);
 	RESULT offlineOperations(const eServiceReference &, ePtr<iServiceOfflineOperations> &ptr);
-private:
-	ePtr<eStaticServiceWebTSInfo> m_service_info;
-};
-
-class eStaticServiceWebTSInfo: public iStaticServiceInformation
-{
-	DECLARE_REF(eStaticServiceWebTSInfo);
-	friend class eServiceFactoryWebTS;
-	eStaticServiceWebTSInfo();
-public:
-	RESULT getName(const eServiceReference &ref, std::string &name);
-	int getLength(const eServiceReference &ref);
-	int getInfo(const eServiceReference &ref, int w);
-	int isPlayable(const eServiceReference &ref, const eServiceReference &ignore, bool simulate) { return 1; }
-	long long getFileSize(const eServiceReference &ref);
-	RESULT getEvent(const eServiceReference &ref, ePtr<eServiceEvent> &ptr, time_t start_time);
 };
 
 class TSAudioInfoWeb {
@@ -72,7 +56,7 @@ public:
 class eStreamThreadWeb;
 class eServiceWebTS: public iPlayableService, public iPauseableService,
 	public iServiceInformation, public iSeekableService,
-	public iAudioTrackSelection, public iAudioChannelSelection, public sigc::trackable
+	public iAudioTrackSelection, public iAudioChannelSelection, public Object
 {
 DECLARE_REF(eServiceWebTS);
 public:
@@ -87,6 +71,7 @@ public:
 	RESULT info(ePtr<iServiceInformation>&);
 
 	// not implemented
+	RESULT setTarget(int target) { return -1; };
 	RESULT setTarget(int target, bool noaudio = false) { return -1; };
 	RESULT setSlowMotion(int ratio) { return -1; };
 	RESULT setFastForward(int ratio) { return -1; };
@@ -128,12 +113,11 @@ public:
 	int getCurrentTrack();
 
 	// iAudioChannelSelection
-	int getCurrentChannel() { return iAudioChannelSelection_ENUMS::STEREO; };
+	int getCurrentChannel() { return iAudioChannelSelection::STEREO; }
 	RESULT selectChannel(int i) { return 0; };
 
 private:
 	friend class eServiceFactoryWebTS;
-	eServiceReference m_reference;
 	std::string m_filename;
 	int m_vpid, m_apid;
 	int m_destfd;
