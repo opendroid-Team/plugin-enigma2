@@ -87,9 +87,6 @@ SUBDIRS = \
 	videocolorspace \
 	vlcplayer \
 	vps \
-	weatherplugin \
-	weathercomponent \
-	weathercomponenthandler \
 	webadmin \
 	webbouqueteditor \
 	webcamviewer \
