@@ -1,0 +1,8 @@
+Package: enigma2-plugin-extensions-GioppyGio
+Version: 2.0
+Description: gioppygio-settings-and-Picons
+Section: extra
+Priority: optional
+Maintainer: GioppyGio
+Architecture: all
+Homepage: http://gioppygio.net

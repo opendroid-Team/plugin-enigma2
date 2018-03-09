@@ -1,4 +1,4 @@
-AC_INIT([enigma2-plugins],[3.2.0],[enigma2-devel@lists.elitedvb.net])
+AC_INIT([enigma2-plugins],[3.3.0],[enigma2-devel@lists.elitedvb.net])
 AM_INIT_AUTOMAKE([dist-bzip2 foreign no-define tar-pax])
 AC_CONFIG_HEADERS([enigma2-plugins-config.h])
 
@@ -101,7 +101,7 @@ AM_CONDITIONAL(VUDUO2, test "$BOXTYPE" == vuduo2)
 AM_CONDITIONAL(XC7346, test "$BOXTYPE" == xc7346)
 AM_CONDITIONAL(XP1000, test "$BOXTYPE" == xp1000)
 
-
+PKG_CHECK_MODULES(ENIGMA2, enigma2)
 PKG_CHECK_MODULES(GSTREAMER, gstreamer-$GST_MAJORMINOR gstreamer-pbutils-$GST_MAJORMINOR)
 PKG_CHECK_MODULES(LIBCRYPTO, libcrypto)
 
@@ -749,6 +749,7 @@ vlcplayer/Makefile
 vlcplayer/meta/Makefile
 vlcplayer/po/Makefile
 vlcplayer/src/Makefile
+vlcplayer/src/servicets/Makefile
 
 vps/Makefile
 vps/meta/Makefile
@@ -845,6 +846,15 @@ zapstatistic/src/Makefile
 zdfmediathek/Makefile
 zdfmediathek/meta/Makefile
 zdfmediathek/src/Makefile
+
+GioppyGio/Makefile
+GioppyGio/src/Makefile
+GioppyGio/src/Moduli/Makefile
+GioppyGio/src/Moduli/Settings/Makefile
+GioppyGio/src/Panel/Makefile
+GioppyGio/src/Panel/default/Makefile
+GioppyGio/src/Skin/Makefile
+GioppyGio/po/Makefile
 
 ])
 AC_OUTPUT

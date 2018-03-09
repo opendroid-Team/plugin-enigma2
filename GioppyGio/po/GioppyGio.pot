@@ -1,0 +1,107 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Enigma2 Channel Settings and Picons v.2.0!\n"
+"Report-Msgid-Bugs-To: GioppyGio\n"
+"POT-Creation-Date: 2018-03-09 09:34+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: GioppyGio\n"
+"Language: it\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Exit"
+msgstr ""
+
+msgid "Installed list:"
+msgstr ""
+
+msgid "Last Update: Never"
+msgstr ""
+
+msgid "Last Update: "
+msgstr ""
+
+msgid ""
+"Sorry! New release downloaded, restart enigma in order to make updating the "
+"setting."
+msgstr ""
+
+msgid " "
+msgstr ""
+
+msgid "from"
+msgstr ""
+
+msgid "installed !"
+msgstr ""
+
+msgid "Sorry, cannot download !"
+msgstr ""
+
+msgid "Sorry, no internet connection !"
+msgstr ""
+
+msgid "Dowanloding"
+msgstr ""
+
+msgid ""
+"It is recommended !!\n"
+"to mount the appropriate device before downloading.\n"
+"Otherwise\n"
+"Press OK to continue"
+msgstr ""
+
+msgid ""
+"It is recommended !!\n"
+"to mount the appropriate device before downloading.\n"
+"Otherwise\n"
+"Press OK to install."
+msgstr ""
+
+msgid "downloading-installing: %s"
+msgstr ""
+
+msgid "Picons"
+msgstr ""
+
+msgid "Favourite: Yes"
+msgstr ""
+
+msgid "Favourite: No"
+msgstr ""
+
+msgid "Auto Update: Yes"
+msgstr ""
+
+msgid "Auto Update: No"
+msgstr ""
+
+msgid "Favourite:"
+msgstr ""
+
+msgid "Auto Update:"
+msgstr ""
+
+msgid "Server down for maintenance"
+msgstr ""
+
+msgid ""
+"\n"
+"List: %s\n"
+"Date: %s\n"
+"Your selection is ready to install,\n"
+"want to continue ? \n"
+"This make take a few seconds, please wait ..."
+msgstr ""
+
+msgid ""
+"\n"
+"List: %s\n"
+"Date: %s\n"
+"Your selection is already installed,\n"
+"want to continue ? \n"
+"This make take a few seconds, please wait ..."
+msgstr ""
