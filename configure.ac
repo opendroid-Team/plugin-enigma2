@@ -749,7 +749,6 @@ vlcplayer/Makefile
 vlcplayer/meta/Makefile
 vlcplayer/po/Makefile
 vlcplayer/src/Makefile
-vlcplayer/src/servicets/Makefile
 
 vps/Makefile
 vps/meta/Makefile
