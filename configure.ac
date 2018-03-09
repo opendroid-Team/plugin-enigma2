@@ -848,6 +848,7 @@ GioppyGio/Makefile
 GioppyGio/src/Makefile
 GioppyGio/src/Moduli/Makefile
 GioppyGio/src/Moduli/Settings/Makefile
+GioppyGio/src/Moduli/Settings/Temp/Makefile
 GioppyGio/src/Panel/Makefile
 GioppyGio/src/Panel/default/Makefile
 GioppyGio/src/Skin/Makefile
