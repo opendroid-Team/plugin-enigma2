@@ -39,6 +39,7 @@ SUBDIRS = \
 	ftpbrowser \
 	googlemaps \
 	growlee \
+	GioppyGio \
 	imdb \
 	infobartunerstate \
 	internetradio \
