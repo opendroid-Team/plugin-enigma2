@@ -40,6 +40,23 @@ from enigma import addFont
 global giopath
 global Index
 plugin='[GioppyGio] '
+lang = language.getLanguage()
+environ["LANGUAGE"] = lang[:2]
+gettext.bindtextdomain("enigma2", resolveFilename(SCOPE_LANGUAGE))
+gettext.textdomain("enigma2")
+gettext.bindtextdomain("GioppyGio", "%s%s" % (resolveFilename(SCOPE_PLUGINS), "Extensions/GioppyGio/locale/"))
+
+def _(txt):
+	t = gettext.dgettext("GioppyGio", txt)
+	if t == txt:
+		t = gettext.gettext(txt)
+	return t
+
+def translateBlock(block):
+	for x in TranslationHelper:
+		if block.__contains__(x[0]):
+			block = block.replace(x[0], x[1])
+	return block
 
 if getDesktop(0).size().width() == 1920:
 	loadSkin("/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Skin/skinFHD.xml")
@@ -47,7 +64,10 @@ if getDesktop(0).size().width() == 1920:
 else:
 	loadSkin("/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Skin/skinhd.xml")
 	giopath = '/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/default/'
-
+try:
+	addFont('%s/Raleway-Black.ttf' % plugin_path, 'Rale', 100, 1)
+except Exception as ex:
+	print ex
 
 class MenuListGioB(MenuList):
 
@@ -379,9 +399,9 @@ class picons(Screen):
 
 	screenwidth = getDesktop(0).size().width()
 	if screenwidth and screenwidth == 1920:
-		skin = '\n\t\t\t<screen name="picons" position="center,center" size="960,605" >\n\t\t\t\t<widget name="text" itemHeight="50" font="Regular;28" position="10,10" size="940,580" scrollbarMode="showOnDemand" transparent="1" />\n\t\t\t\t<widget name="info" position="10,540" size="940,50" font="Regular;32" valign="center" noWrap="1" backgroundColor="#333f3f3f" foregroundColor="#FFC000" shadowOffset="-2,-2" shadowColor="black" />\n\t\t\t</screen>'
+		skin = '\n\t\t\t<screen name="picons" position="center,center" size="960,605" >\n\t\t\t\t<widget name="text" itemHeight="50" font="Regular;28" position="10,10" size="940,580" scrollbarMode="showOnDemand" transparent="1" />\n\t\t\t\t<widget name="info" position="10,540" size="940,50" font="Rale;32" valign="center" noWrap="1" backgroundColor="#333f3f3f" foregroundColor="#FFC000" shadowOffset="-2,-2" shadowColor="black" />\n\t\t\t</screen>'
 	else:
-		skin = '\n\t\t\t<screen name="picons" position="center,center" size="560,405" >\n\t\t\t\t<widget name="text" position="10,10" size="540,280" scrollbarMode="showOnDemand" transparent="1" />\n\t\t\t\t<widget name="info" position="10,370" size="540,30" font="Regular;22" valign="center" noWrap="1" backgroundColor="#333f3f3f" foregroundColor="#FFC000" shadowOffset="-2,-2" shadowColor="black" />\n\t\t\t</screen>'
+		skin = '\n\t\t\t<screen name="picons" position="center,center" size="560,405" >\n\t\t\t\t<widget name="text" position="10,10" size="540,280" scrollbarMode="showOnDemand" transparent="1" />\n\t\t\t\t<widget name="info" position="10,370" size="540,30" font="Rale;22" valign="center" noWrap="1" backgroundColor="#333f3f3f" foregroundColor="#FFC000" shadowOffset="-2,-2" shadowColor="black" />\n\t\t\t</screen>'
 
 
 	def __init__(self, session):
@@ -445,9 +465,9 @@ class SelectCountry(Screen):
 
 	screenwidth = getDesktop(0).size().width()
 	if screenwidth and screenwidth == 1920:
-         skin = '\n\t\t\t<screen name="SelectCountry" position="center,center" size="960,605" >\n\t\t\t\t<widget name="countrymenu" itemHeight="50" font="Regular;28" position="10,10" size="940,580" scrollbarMode="showOnDemand" transparent="1" />\n\t\t\t\t<widget name="info" position="10,540" size="940,50" font="Regular;32" valign="center" noWrap="1" backgroundColor="#333f3f3f" foregroundColor="#FFC000" shadowOffset="-2,-2" shadowColor="black" />\n\t\t\t</screen>'
+         skin = '\n\t\t\t<screen name="SelectCountry" position="center,center" size="960,605" >\n\t\t\t\t<widget name="countrymenu" itemHeight="50" font="Regular;28" position="10,10" size="940,580" scrollbarMode="showOnDemand" transparent="1" />\n\t\t\t\t<widget name="info" position="10,540" size="940,50" font="Rale;32" valign="center" noWrap="1" backgroundColor="#333f3f3f" foregroundColor="#FFC000" shadowOffset="-2,-2" shadowColor="black" />\n\t\t\t</screen>'
 	else:
-		skin = '\n\t\t\t<screen name="SelectCountry" position="center,center" size="560,405" >\n\t\t\t\t<widget name="countrymenu" position="10,10" size="540,280" scrollbarMode="showOnDemand" transparent="1" />\n\t\t\t\t<widget name="info" position="10,370" size="540,30" font="Regular;22" valign="center" noWrap="1" backgroundColor="#333f3f3f" foregroundColor="#FFC000" shadowOffset="-2,-2" shadowColor="black" />\n\t\t\t</screen>'
+		skin = '\n\t\t\t<screen name="SelectCountry" position="center,center" size="560,405" >\n\t\t\t\t<widget name="countrymenu" position="10,10" size="540,280" scrollbarMode="showOnDemand" transparent="1" />\n\t\t\t\t<widget name="info" position="10,370" size="540,30" font="Rale;22" valign="center" noWrap="1" backgroundColor="#333f3f3f" foregroundColor="#FFC000" shadowOffset="-2,-2" shadowColor="black" />\n\t\t\t</screen>'
 
 	def __init__(self, session, xmlparse, selection):
 		Screen.__init__(self,session)
@@ -520,3 +540,4 @@ def Main(session, **kwargs):
 
 def Plugins(**kwargs):
 	return [PluginDescriptor(name='GioppyGio Panel v.2.0', description='Enigma2 Channel Settings and Picons v.2.0!', icon='/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/plugin.png', where=[PluginDescriptor.WHERE_EXTENSIONSMENU, PluginDescriptor.WHERE_PLUGINMENU], fnc=Main), PluginDescriptor(where=PluginDescriptor.WHERE_SESSIONSTART, fnc=SessionStart), PluginDescriptor(where=PluginDescriptor.WHERE_AUTOSTART, fnc=AutoStart)]
+global giopath ## Warning: Unused global
